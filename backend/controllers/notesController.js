@@ -27,7 +27,7 @@ const getAllNotes = asyncHandler(async (req, res) => {
 // @route POST /notes
 // @access Private
 const createNewNote = asyncHandler(async (req, res) => {
-    const { user, titile, text } = req.body
+    const { user, title, text } = req.body
 
     //confirm data
     if (!user || !title || !text) {
@@ -41,8 +41,8 @@ const createNewNote = asyncHandler(async (req, res) => {
         return res.status(409).json({ message: 'Duplicate note title'})
     }
 
-    // create and store the new user
-    const note = await Note.create({ user, title, text})
+    // create and store the new note
+    const note = await Note.create({ user, title, text })
 
     if (note) { //created
         return res.status(201).json({ message: 'New note created'})
