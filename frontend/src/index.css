@@ -10,14 +10,14 @@
 
 :root {
   /* COLORS */
-  --BGCOLOR: #0F172A;
+  --BGCOLOR: #e6ead2;
   --BORDER-COLOR: #FFF;
-  --COLOR: #FFF;
+  --COLOR: rgb(120, 57, 8);
   --ERROR: firebrick;
   --INACTIVE: lightgray;
-  --LINK-COLOR: whitesmoke;
-  --LINK-HOVER: rgba(245, 245, 245, 0.9);
-  --NOTE-BGCOLOR: hsla(240, 64%, 27%, 0.65);
+  --LINK-COLOR: rgb(120, 57, 8);
+  --LINK-HOVER: rgba(245, 245, 245, 0.937);
+  --NOTE-BGCOLOR: #FFF;
   --STATUS-COMPLETE: limegreen;
   --STATUS-OPEN: firebrick;
   --TABLE-BGCOLOR: #FFF;
