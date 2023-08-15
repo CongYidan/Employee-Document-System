@@ -1,2 +1,2 @@
-# PersonalJournalWebsite
-This is a full-stack web application which can store personal journals for multiple users. The app is written in JavaScript.
+# Employee Document System
+This full-stack web application requires users to log in to write documents. The app is written in JavaScript.
